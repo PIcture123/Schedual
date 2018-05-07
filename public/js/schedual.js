@@ -72,9 +72,7 @@ socket.on('SchedualList',function(docs){
       IsItIn = true;
     }
   });
-/*  socket.on("Reload",function(asd){
-      location.reload("/");
-  });
+
 /*if(d.getDay() == 1){
   var x = document.getElementById("Monday").style.width = "50%";
   document.getElementById("Monday").style = "color:white;background-color:black;";
