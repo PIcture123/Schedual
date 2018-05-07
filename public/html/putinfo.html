@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/css/schedual.css">
+    <title>График</title>
+</head>
+<body>
+
+    <button id="plus" onclick="Plus()">+</button>
+    <table style="width:100%" id='information'>
+        <tr>
+        <th id="Monday">
+            Понеделник
+        </th>
+        <th id="ts">
+            Вторник
+        </th>
+        <th id="Wednesday">
+            Сряда
+        </th>
+        <th id="fr">
+            Четвъртък
+        </th>
+        <th id="f">
+                Петък
+        </th>
+    </tr>
+    </table>
+    <script src="/socket.io/socket.io.js">
+    </script>
+    <script src= "./static/js/putInfo.js">
+    </script>
+    <script src="./static/js/saveInfo.js">
+
+    </script>
+    <button onclick="Clicked()" id="Info">Запази информацията</button>
+</body>
+</html>
