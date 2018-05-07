@@ -35,7 +35,7 @@ for(var i=0;i<Info;i++){
   massiv[i].Fcolor = document.getElementById("Fcolor"+i).value;
 }
 socket.emit("PutInfo",massiv);
-//socket.emit("Reload","hello");
+socket.emit("Reload","hello");
 }
 function Plus(){
   var tr = document.createElement("TR");
