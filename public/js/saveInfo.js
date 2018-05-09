@@ -46,7 +46,11 @@ function Plus(){
 
   var input = document.createElement("TEXTAREA");
   input.setAttribute('id',"Mondays"+Info);
-
+  var color = document.createElement("INPUT");
+  color.setAttribute("type","color");
+  color.setAttribute("value","#FFFFFF");
+  color.setAttribute("id","Mcolor"+i);
+  tddata.appendChild(color);
   tddata.appendChild(input);
   tr.appendChild(tddata);
 
@@ -57,7 +61,11 @@ function Plus(){
 
   var input = document.createElement("TEXTAREA");
   input.setAttribute('id',"Tuesdays"+Info);
-
+  var color = document.createElement("INPUT");
+  color.setAttribute("type","color");
+  color.setAttribute("id","Tcolor"+i);
+  color.setAttribute("value","#FFFFFF");
+  tddata.appendChild(color);
   tddata.appendChild(input);
   tr.appendChild(tddata);
 
@@ -66,6 +74,12 @@ function Plus(){
 
   var input = document.createElement("TEXTAREA");
   input.setAttribute('id',"Wednesdays"+Info);
+  var color = document.createElement("INPUT");
+          color.setAttribute("type","color");
+          color.setAttribute("id","Wcolor"+i);
+          color.setAttribute("value","#FFFFFF");
+          tddata.appendChild(color);
+
   tddata.appendChild(input);
   tr.appendChild(tddata);
 
@@ -73,6 +87,11 @@ function Plus(){
   tddata.setAttribute('id',"fr"+Info);
   var input = document.createElement("TEXTAREA");
   input.setAttribute('id',"frs"+Info);
+  var color = document.createElement("INPUT");
+  color.setAttribute("type","color");
+  color.setAttribute("id","Frcolor"+i);
+  color.setAttribute("value","#FFFFFF");
+  tddata.appendChild(color);
   tddata.appendChild(input);
   tr.appendChild(tddata);
 
@@ -80,7 +99,11 @@ function Plus(){
   tddata.setAttribute('id',"Friday"+Info);
   var input = document.createElement("TEXTAREA");
   input.setAttribute('id',"Fridays"+Info);
-
+  var color = document.createElement("INPUT");
+  color.setAttribute("type","color");
+  color.setAttribute("id","Fcolor"+i);
+  color.setAttribute("value","#FFFFFF");
+  tddata.appendChild(color);
   tddata.appendChild(input);
   tr.appendChild(tddata);
  Info = Info + 1;
