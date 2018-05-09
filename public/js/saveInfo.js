@@ -49,7 +49,7 @@ function Plus(){
   var color = document.createElement("INPUT");
   color.setAttribute("type","color");
   color.setAttribute("value","#FFFFFF");
-  color.setAttribute("id","Mcolor"+i);
+  color.setAttribute("id","Mcolor"+Info);
   tddata.appendChild(color);
   tddata.appendChild(input);
   tr.appendChild(tddata);
@@ -63,7 +63,7 @@ function Plus(){
   input.setAttribute('id',"Tuesdays"+Info);
   var color = document.createElement("INPUT");
   color.setAttribute("type","color");
-  color.setAttribute("id","Tcolor"+i);
+  color.setAttribute("id","Tcolor"+Info);
   color.setAttribute("value","#FFFFFF");
   tddata.appendChild(color);
   tddata.appendChild(input);
@@ -76,7 +76,7 @@ function Plus(){
   input.setAttribute('id',"Wednesdays"+Info);
   var color = document.createElement("INPUT");
           color.setAttribute("type","color");
-          color.setAttribute("id","Wcolor"+i);
+          color.setAttribute("id","Wcolor"+Info);
           color.setAttribute("value","#FFFFFF");
           tddata.appendChild(color);
 
@@ -89,7 +89,7 @@ function Plus(){
   input.setAttribute('id',"frs"+Info);
   var color = document.createElement("INPUT");
   color.setAttribute("type","color");
-  color.setAttribute("id","Frcolor"+i);
+  color.setAttribute("id","Frcolor"+Info);
   color.setAttribute("value","#FFFFFF");
   tddata.appendChild(color);
   tddata.appendChild(input);
@@ -101,7 +101,7 @@ function Plus(){
   input.setAttribute('id',"Fridays"+Info);
   var color = document.createElement("INPUT");
   color.setAttribute("type","color");
-  color.setAttribute("id","Fcolor"+i);
+  color.setAttribute("id","Fcolor"+Info);
   color.setAttribute("value","#FFFFFF");
   tddata.appendChild(color);
   tddata.appendChild(input);
