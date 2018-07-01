@@ -20,7 +20,7 @@ app.get("/",function(req,res){
   res.sendfile(__dirname+'/public/html/schedual.html');
 });
 app.get("/admin",function(req,res){
-  res.sendfile(__dirname+'/public/html/putinfo.html');
+  res.sendfile(__dirname+'/public/html/verify.html');
 });
 io.on('connection',function(socket){
   socket.on('information',function(asked){

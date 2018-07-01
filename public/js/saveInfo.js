@@ -24,15 +24,15 @@ for(var i =0;i<Info;i++){
 }
 for(var i=0;i<Info;i++){
   massiv[i].Monday = document.getElementById("Mondays"+i).value;
-  massiv[i].Mcolor = document.getElementById("Mcolor"+i).value;
+  massiv[i].Mcolor = "#BFD641";
   massiv[i].Tuesday = document.getElementById("Tuesdays"+i).value;
-  massiv[i].Tcolor = document.getElementById("Tcolor"+i).value;
+  massiv[i].Tcolor = "#ECDB54";
   massiv[i].Wednesday = document.getElementById("Wednesdays"+i).value;
-  massiv[i].Wcolor = document.getElementById("Wcolor"+i).value;
+  massiv[i].Wcolor = "#6F9FD8";
   massiv[i].fr = document.getElementById("frs"+i).value;
-  massiv[i].Frcolor = document.getElementById("Frcolor"+i).value;
+  massiv[i].Frcolor = "#EADEDB";
   massiv[i].Friday = document.getElementById("Fridays"+i).value;
-  massiv[i].Fcolor = document.getElementById("Fcolor"+i).value;
+  massiv[i].Fcolor = "#B4B7BA";
 }
 socket.emit("PutInfo",massiv);
 socket.emit("Reload","hello");

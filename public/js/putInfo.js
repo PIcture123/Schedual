@@ -21,11 +21,7 @@ socket.on('SchedualList',function(docs){
           console.log(text);
           tddata.appendChild(input);
 
-          var color = document.createElement("INPUT");
-          color.setAttribute("type","color");
-          color.setAttribute("value","#FFFFFF");
-          color.setAttribute("id","Mcolor"+i);
-          tddata.appendChild(color);
+          
 
           tr.appendChild(tddata);
 
@@ -42,11 +38,7 @@ socket.on('SchedualList',function(docs){
 
           tddata.appendChild(input);
 
-          var color = document.createElement("INPUT");
-          color.setAttribute("type","color");
-          color.setAttribute("id","Tcolor"+i);
-          color.setAttribute("value","#FFFFFF");
-          tddata.appendChild(color);
+          
 
           tr.appendChild(tddata);
 
@@ -59,12 +51,7 @@ socket.on('SchedualList',function(docs){
           input.value = text;
           tddata.appendChild(input);
 
-          var color = document.createElement("INPUT");
-          color.setAttribute("type","color");
-          color.setAttribute("id","Wcolor"+i);
-          color.setAttribute("value","#FFFFFF");
-          tddata.appendChild(color);
-
+          
           tr.appendChild(tddata);
 
           var tddata = document.createElement("TH");
@@ -75,12 +62,7 @@ socket.on('SchedualList',function(docs){
           input.value = text;
           tddata.appendChild(input);
 
-          var color = document.createElement("INPUT");
-          color.setAttribute("type","color");
-          color.setAttribute("id","Frcolor"+i);
-          color.setAttribute("value","#FFFFFF");
-          tddata.appendChild(color);
-
+          
           tr.appendChild(tddata);
 
           var tddata = document.createElement("TH");
@@ -91,12 +73,7 @@ socket.on('SchedualList',function(docs){
           input.value = text;
           tddata.appendChild(input);
 
-          var color = document.createElement("INPUT");
-          color.setAttribute("type","color");
-          color.setAttribute("id","Fcolor"+i);
-          color.setAttribute("value","#FFFFFF");
-          tddata.appendChild(color);
-
+          
           tr.appendChild(tddata);
         }
         IsItIn = true;
